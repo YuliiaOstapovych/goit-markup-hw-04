@@ -629,6 +629,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
 .modal-close-btn:hover {
   background-color: var(--ocean);
   border: none; 
+  fill: #ffffff;
 }
 .modal-close-btn:focus {
   background-color: var(--ocean);
@@ -638,5 +639,6 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  fill: #ffffff;
 }
 
