@@ -630,13 +630,18 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
 .modal-close-btn:hover {
   background-color: var(--ocean);
   border: none; 
-  fill: #ffffff;
 }
 .modal-close-btn:focus {
   background-color: var(--ocean);
   border: none;
+}
+.modal:hover .modal-close-btn {
   fill: #ffffff;
 }
+.modal:focus .modal-close-btn {
+  fill: #ffffff;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
