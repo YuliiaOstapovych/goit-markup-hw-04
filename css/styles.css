@@ -597,9 +597,6 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
   transform: translate(-50%, -50%) scaleX(5);
 }
 
-.modal-icon {
-  transform: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .modal-close-btn {
   border: none;
   background: transparent;
@@ -617,7 +614,7 @@ rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
   border: 1px solid  rgba(0, 0, 0, 0.10);
   background-color: #E7E9FC;
   fill: var(--navyblue);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-close-btn:hover {
